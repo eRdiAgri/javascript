@@ -14,3 +14,11 @@ for (let i = 0; i < 10; i++) {
     }
     document.write("<br/>");
 }
+
+function add(a, b) {
+    return a + b;
+}
+
+let result = add(1, 2);
+
+console.log(result);
